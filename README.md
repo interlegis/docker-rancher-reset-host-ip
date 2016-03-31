@@ -12,7 +12,7 @@ update-host-ip:
     io.rancher.container.start_once: 'true'
   tty: true
   log_opt: {}
-  image: getapp/docker-rancher-reset-host-ip
+  image: getapp/rancher-reset-host-ip
   volumes:
   - /var/run/docker.sock:/var/run/docker.sock
   stdin_open: true
